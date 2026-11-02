@@ -1,0 +1,36 @@
+/* GAME routing uses the native source/destination relationship in one view. */
+.game-routing-matrix{grid-column:1/-1;min-width:0;padding:16px;max-width:920px}
+.game-routing-matrix>.card-head{display:flex;justify-content:space-between;gap:12px;margin-bottom:10px}
+.game-routing-matrix>.card-head h2{font-size:14px}
+.game-route-key{font-size:11px;color:#9D9DA2;white-space:nowrap}
+.game-route-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:12px}
+.game-route-table th,.game-route-table td{padding:7px 6px;border-bottom:1px solid #FBFBFD0B;text-align:center;vertical-align:middle}
+.game-route-table thead th{color:#ADADB2;font-size:11px;font-weight:400;padding-top:5px;padding-bottom:9px}
+.game-route-table th:first-child{width:34%;text-align:left}
+.game-route-table tbody th{font-weight:500;color:#DEDEE0;white-space:nowrap}
+.game-route-table tbody tr:last-child th,.game-route-table tbody tr:last-child td{border-bottom:0}
+.game-route-table tbody tr:hover{background:#FBFBFD04}
+.game-route-table .game-route-control{padding:0;border:0;min-width:0}
+.game-route-control>.control-top,.game-route-control>.hint,.game-route-control>.restriction{display:none}
+.game-route-table .game-route-control .toggle{display:inline-flex;align-items:center;justify-content:center;width:42px;min-width:0;min-height:34px;height:34px;padding:0;border:1px solid #4D4D53;border-radius:4px;background:#25252A;font-size:0;box-shadow:none}
+.game-route-control .toggle:before{content:'';display:block;width:9px;height:9px;background:#6D6E73;border-radius:2px}
+.game-route-table .game-route-control .toggle[aria-checked=true]{background:#06C06917;border-color:#06C069}
+.game-route-control .toggle[aria-checked=true]:before{background:#06C069;box-shadow:0 0 7px #06C06944}
+.game-route-control .toggle[aria-checked=mixed]:before{width:12px;height:2px;background:#9D9DA2}
+.game-route-table .game-route-control.pending .toggle{border-color:#E5C342}
+.game-route-unavailable{display:inline-block;min-width:34px;color:#6D6E73;font-size:16px;cursor:default}
+.game-playback-level>.card-head{margin-bottom:5px}
+@media(max-width:620px){
+  .game-routing-matrix{padding:12px;max-width:100%}
+  .game-routing-matrix>.card-head{margin-bottom:7px}
+  .game-route-table th,.game-route-table td{padding:7px 3px}
+  .game-route-table th:first-child{width:36%}
+  .game-route-table thead th{font-size:10px}
+  .game-route-table tbody th{font-size:11px}
+  .game-route-key{font-size:10px}
+  .game-route-table .game-route-control .toggle{width:38px;min-height:36px;height:36px}
+}
+@media(max-width:380px){
+  .game-routing-matrix{padding:10px}
+  .game-route-table th,.game-route-table td{padding-left:2px;padding-right:2px}
+}

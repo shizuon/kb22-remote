@@ -1,0 +1,2794 @@
+{
+  "nativeSHA256": "b39bbb5a0849454325a96c0df954a5258ebcdd62da9d3804e123916f3aacfcdd",
+  "cases": [
+    {
+      "id": "input.1.gain",
+      "value": 17,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN1",
+      "key": "GAIN",
+      "input": "17",
+      "frames": [
+        {
+          "address": "2105",
+          "value": 17,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.1.mute",
+      "value": true,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN1",
+      "key": "MUTE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "2101",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.1.phantom",
+      "value": true,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN1",
+      "key": "48V",
+      "input": "1",
+      "frames": [
+        {
+          "address": "2102",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.1.instrument",
+      "value": true,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN1",
+      "key": "INST",
+      "input": "1",
+      "frames": [
+        {
+          "address": "2103",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.1.polarity",
+      "value": true,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN1",
+      "key": "ANTI",
+      "input": "1",
+      "frames": [
+        {
+          "address": "2109",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.1.enabled",
+      "value": true,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN1",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "7301",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.1.threshold",
+      "value": -19,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN1",
+      "key": "Threshold",
+      "input": "-19",
+      "frames": [
+        {
+          "address": "7302",
+          "value": -19,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.1.ratio",
+      "value": 3.7,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN1",
+      "key": "Ratio",
+      "input": "3.7",
+      "frames": [
+        {
+          "address": "7303",
+          "value": 37,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.1.attack",
+      "value": 35,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN1",
+      "key": "Attack",
+      "input": "35",
+      "frames": [
+        {
+          "address": "7304",
+          "value": 35,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.1.release",
+      "value": 180,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN1",
+      "key": "Release",
+      "input": "180",
+      "frames": [
+        {
+          "address": "7305",
+          "value": 180,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.1.gain",
+      "value": 7,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN1",
+      "key": "Gain",
+      "input": "7",
+      "frames": [
+        {
+          "address": "7306",
+          "value": 7,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.1.autoGain",
+      "value": false,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN1",
+      "key": "GainAuto",
+      "input": "0",
+      "frames": [
+        {
+          "address": "7307",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.1.mix",
+      "value": 63,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN1",
+      "key": "Mix",
+      "input": "63",
+      "frames": [
+        {
+          "address": "7308",
+          "value": 63,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.1.enabled",
+      "value": true,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN1",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "7501",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.1.threshold",
+      "value": -19,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN1",
+      "key": "Threshold",
+      "input": "-19",
+      "frames": [
+        {
+          "address": "7502",
+          "value": -19,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.1.ratio",
+      "value": 3.7,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN1",
+      "key": "Ratio",
+      "input": "3.7",
+      "frames": [
+        {
+          "address": "7503",
+          "value": 37,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.1.attack",
+      "value": 35,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN1",
+      "key": "Attack",
+      "input": "35",
+      "frames": [
+        {
+          "address": "7504",
+          "value": 35,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.1.release",
+      "value": 180,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN1",
+      "key": "Release",
+      "input": "180",
+      "frames": [
+        {
+          "address": "7505",
+          "value": 180,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.1.gain",
+      "value": 7,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN1",
+      "key": "Gain",
+      "input": "7",
+      "frames": [
+        {
+          "address": "7506",
+          "value": 7,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.1.autoGain",
+      "value": false,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN1",
+      "key": "GainAuto",
+      "input": "0",
+      "frames": [
+        {
+          "address": "7507",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.1.mix",
+      "value": 63,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN1",
+      "key": "Mix",
+      "input": "63",
+      "frames": [
+        {
+          "address": "7508",
+          "value": 63,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.1.enabled",
+      "value": true,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@1",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "5101",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.1.type",
+      "value": 3,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@1",
+      "key": "Type",
+      "input": "3",
+      "frames": [
+        {
+          "address": "5102",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.1.gain",
+      "value": -2.5,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@1",
+      "key": "Gain",
+      "input": "-2.5",
+      "frames": [
+        {
+          "address": "5103",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.1.frequency",
+      "value": 1763,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@1",
+      "key": "Freq",
+      "input": "1763",
+      "frames": [
+        {
+          "address": "5104",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.1.q",
+      "value": 0.707,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@1",
+      "key": "Q",
+      "input": ".707",
+      "frames": [
+        {
+          "address": "5105",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.4.enabled",
+      "value": true,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@4",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "5401",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.4.type",
+      "value": 3,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@4",
+      "key": "Type",
+      "input": "3",
+      "frames": [
+        {
+          "address": "5402",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.4.gain",
+      "value": -2.5,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@4",
+      "key": "Gain",
+      "input": "-2.5",
+      "frames": [
+        {
+          "address": "5403",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.4.frequency",
+      "value": 1763,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@4",
+      "key": "Freq",
+      "input": "1763",
+      "frames": [
+        {
+          "address": "5404",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in1.4.q",
+      "value": 0.707,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN1@4",
+      "key": "Q",
+      "input": ".707",
+      "frames": [
+        {
+          "address": "5405",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.2.gain",
+      "value": 17,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN2",
+      "key": "GAIN",
+      "input": "17",
+      "frames": [
+        {
+          "address": "2205",
+          "value": 17,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.2.mute",
+      "value": true,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN2",
+      "key": "MUTE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "2201",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.2.phantom",
+      "value": true,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN2",
+      "key": "48V",
+      "input": "1",
+      "frames": [
+        {
+          "address": "2202",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.2.instrument",
+      "value": true,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN2",
+      "key": "INST",
+      "input": "1",
+      "frames": [
+        {
+          "address": "2203",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "input.2.polarity",
+      "value": true,
+      "handler": "0x1004e9bfc",
+      "section": "Input_IN2",
+      "key": "ANTI",
+      "input": "1",
+      "frames": [
+        {
+          "address": "2209",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.2.enabled",
+      "value": true,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN2",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "7401",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.2.threshold",
+      "value": -19,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN2",
+      "key": "Threshold",
+      "input": "-19",
+      "frames": [
+        {
+          "address": "7402",
+          "value": -19,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.2.ratio",
+      "value": 3.7,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN2",
+      "key": "Ratio",
+      "input": "3.7",
+      "frames": [
+        {
+          "address": "7403",
+          "value": 37,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.2.attack",
+      "value": 35,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN2",
+      "key": "Attack",
+      "input": "35",
+      "frames": [
+        {
+          "address": "7404",
+          "value": 35,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.2.release",
+      "value": 180,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN2",
+      "key": "Release",
+      "input": "180",
+      "frames": [
+        {
+          "address": "7405",
+          "value": 180,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.2.gain",
+      "value": 7,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN2",
+      "key": "Gain",
+      "input": "7",
+      "frames": [
+        {
+          "address": "7406",
+          "value": 7,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.2.autoGain",
+      "value": false,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN2",
+      "key": "GainAuto",
+      "input": "0",
+      "frames": [
+        {
+          "address": "7407",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "compressor.2.mix",
+      "value": 63,
+      "handler": "0x1004ef6b8",
+      "section": "Compressor_IN2",
+      "key": "Mix",
+      "input": "63",
+      "frames": [
+        {
+          "address": "7408",
+          "value": 63,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.2.enabled",
+      "value": true,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN2",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "7601",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.2.threshold",
+      "value": -19,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN2",
+      "key": "Threshold",
+      "input": "-19",
+      "frames": [
+        {
+          "address": "7602",
+          "value": -19,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.2.ratio",
+      "value": 3.7,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN2",
+      "key": "Ratio",
+      "input": "3.7",
+      "frames": [
+        {
+          "address": "7603",
+          "value": 37,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.2.attack",
+      "value": 35,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN2",
+      "key": "Attack",
+      "input": "35",
+      "frames": [
+        {
+          "address": "7604",
+          "value": 35,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.2.release",
+      "value": 180,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN2",
+      "key": "Release",
+      "input": "180",
+      "frames": [
+        {
+          "address": "7605",
+          "value": 180,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.2.gain",
+      "value": 7,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN2",
+      "key": "Gain",
+      "input": "7",
+      "frames": [
+        {
+          "address": "7606",
+          "value": 7,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.2.autoGain",
+      "value": false,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN2",
+      "key": "GainAuto",
+      "input": "0",
+      "frames": [
+        {
+          "address": "7607",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "expander.2.mix",
+      "value": 63,
+      "handler": "0x1004efb44",
+      "section": "Expander_IN2",
+      "key": "Mix",
+      "input": "63",
+      "frames": [
+        {
+          "address": "7608",
+          "value": 63,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.1.enabled",
+      "value": true,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@1",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "5109",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.1.type",
+      "value": 3,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@1",
+      "key": "Type",
+      "input": "3",
+      "frames": [
+        {
+          "address": "510a",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.1.gain",
+      "value": -2.5,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@1",
+      "key": "Gain",
+      "input": "-2.5",
+      "frames": [
+        {
+          "address": "510b",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.1.frequency",
+      "value": 1763,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@1",
+      "key": "Freq",
+      "input": "1763",
+      "frames": [
+        {
+          "address": "510c",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.1.q",
+      "value": 0.707,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@1",
+      "key": "Q",
+      "input": ".707",
+      "frames": [
+        {
+          "address": "510d",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.4.enabled",
+      "value": true,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@4",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "5409",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.4.type",
+      "value": 3,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@4",
+      "key": "Type",
+      "input": "3",
+      "frames": [
+        {
+          "address": "540a",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.4.gain",
+      "value": -2.5,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@4",
+      "key": "Gain",
+      "input": "-2.5",
+      "frames": [
+        {
+          "address": "540b",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.4.frequency",
+      "value": 1763,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@4",
+      "key": "Freq",
+      "input": "1763",
+      "frames": [
+        {
+          "address": "540c",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.in2.4.q",
+      "value": 0.707,
+      "handler": "0x1004eeea8",
+      "section": "EQ_IN2@4",
+      "key": "Q",
+      "input": ".707",
+      "frames": [
+        {
+          "address": "540d",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "output.volume",
+      "value": -14,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@CH@1",
+      "key": "GAINLeft",
+      "input": "-14",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "3103",
+          "value": 28,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "output.volume",
+      "value": -14,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@CH@1",
+      "key": "GAINRight",
+      "input": "-14",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "3203",
+          "value": 28,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.1.enabled",
+      "value": true,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@1",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6101",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6109",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.1.type",
+      "value": 3,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@1",
+      "key": "Type",
+      "input": "3",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6102",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "610a",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.1.gain",
+      "value": -2.5,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@1",
+      "key": "Gain",
+      "input": "-2.5",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6103",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "610b",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.1.frequency",
+      "value": 1763,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@1",
+      "key": "Freq",
+      "input": "1763",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6104",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "610c",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.1.q",
+      "value": 0.707,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@1",
+      "key": "Q",
+      "input": ".707",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6105",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "610d",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.10.enabled",
+      "value": true,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@10",
+      "key": "Switch",
+      "input": "1",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a01",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a09",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.10.type",
+      "value": 3,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@10",
+      "key": "Type",
+      "input": "3",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a02",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a0a",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.10.gain",
+      "value": -2.5,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@10",
+      "key": "Gain",
+      "input": "-2.5",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a03",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a0b",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.10.frequency",
+      "value": 1763,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@10",
+      "key": "Freq",
+      "input": "1763",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a04",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a0c",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.outL.10.q",
+      "value": 0.707,
+      "handler": "0x1004ecfd8",
+      "section": "Output_HP@EQ@1@10",
+      "key": "Q",
+      "input": ".707",
+      "frames": [
+        {
+          "address": "6b12",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a05",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        },
+        {
+          "address": "6a0d",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "loopback.1.left",
+      "value": -12.3,
+      "handler": "0x1004ebb80",
+      "section": "Loopback_LB12",
+      "key": "GAINLeft",
+      "input": "-12.3",
+      "frames": [
+        {
+          "address": "9103",
+          "value": 8142352,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "loopback.1.right",
+      "value": -12.3,
+      "handler": "0x1004ebb80",
+      "section": "Loopback_LB12",
+      "key": "GAINRight",
+      "input": "-12.3",
+      "frames": [
+        {
+          "address": "9203",
+          "value": 8142352,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "loopback.2.left",
+      "value": -12.3,
+      "handler": "0x1004ebb80",
+      "section": "Loopback_LB34",
+      "key": "GAINLeft",
+      "input": "-12.3",
+      "frames": [
+        {
+          "address": "9303",
+          "value": 8142352,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "loopback.2.right",
+      "value": -12.3,
+      "handler": "0x1004ebb80",
+      "section": "Loopback_LB34",
+      "key": "GAINRight",
+      "input": "-12.3",
+      "frames": [
+        {
+          "address": "9403",
+          "value": 8142352,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "loopback.3.left",
+      "value": -12.3,
+      "handler": "0x1004ebb80",
+      "section": "Loopback_LB56",
+      "key": "GAINLeft",
+      "input": "-12.3",
+      "frames": [
+        {
+          "address": "9503",
+          "value": 8142352,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "loopback.3.right",
+      "value": -12.3,
+      "handler": "0x1004ebb80",
+      "section": "Loopback_LB56",
+      "key": "GAINRight",
+      "input": "-12.3",
+      "frames": [
+        {
+          "address": "9603",
+          "value": 8142352,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.input1",
+      "value": -12,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Input1Level",
+      "input": "-12",
+      "frames": [
+        {
+          "address": "8101",
+          "value": -12,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.input2",
+      "value": -7,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Input2Level",
+      "input": "-7",
+      "frames": [
+        {
+          "address": "8201",
+          "value": -7,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.pan1",
+      "value": 73,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Input1Dial",
+      "input": "73",
+      "frames": [
+        {
+          "address": "8105",
+          "value": 73,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.pan2",
+      "value": 25,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Input2Dial",
+      "input": "25",
+      "frames": [
+        {
+          "address": "8205",
+          "value": 25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.return",
+      "value": -9,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "SliderFx",
+      "input": "-9",
+      "frames": [
+        {
+          "address": "8301",
+          "value": -9,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.delayMix",
+      "value": 33,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Delay",
+      "input": "33",
+      "frames": [
+        {
+          "address": "8502",
+          "value": 33,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.time",
+      "value": 650,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Time",
+      "input": "650",
+      "frames": [
+        {
+          "address": "8504",
+          "value": 650,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.bpm",
+      "value": 140,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "BMPLineEdit",
+      "input": "140",
+      "frames": [
+        {
+          "address": "8506",
+          "value": 140,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.subdivision",
+      "value": 10,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "BPM",
+      "input": "10",
+      "frames": [
+        {
+          "address": "8505",
+          "value": 10,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.feedback",
+      "value": 42,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Feedback",
+      "input": "42",
+      "frames": [
+        {
+          "address": "8507",
+          "value": 42,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.room",
+      "value": 4,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Room",
+      "input": "4",
+      "frames": [
+        {
+          "address": "8602",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.reverbMix",
+      "value": 31,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "DryWet",
+      "input": "31",
+      "frames": [
+        {
+          "address": "8603",
+          "value": 31,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.decay",
+      "value": 11,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Decay",
+      "input": "11",
+      "frames": [
+        {
+          "address": "8604",
+          "value": 11,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.width",
+      "value": 0.7,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Width",
+      "input": ".7",
+      "frames": [
+        {
+          "address": "8605",
+          "value": 70,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.pingpong",
+      "value": false,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "PingPong",
+      "input": "0",
+      "frames": [
+        {
+          "address": "8501",
+          "value": 2,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.unit",
+      "value": 2,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "Unit",
+      "input": "BPM",
+      "frames": [
+        {
+          "address": "8503",
+          "value": 2,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "fx.reverb",
+      "value": 4,
+      "handler": "0x1004eb42c",
+      "section": "Effect_Integration",
+      "key": "ReverbType",
+      "input": "Hall",
+      "frames": [
+        {
+          "address": "8601",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.volume",
+      "value": -30,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "Volume",
+      "input": "138",
+      "frames": [
+        {
+          "address": "1389",
+          "value": 138,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.balance",
+      "value": -2.5,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "Balance",
+      "input": "25",
+      "frames": [
+        {
+          "address": "1334",
+          "value": 25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.balance",
+      "value": 2.5,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "Balance",
+      "input": "2500",
+      "frames": [
+        {
+          "address": "1334",
+          "value": 2500,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.input",
+      "value": 1,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "InputSelection",
+      "input": "1",
+      "frames": [
+        {
+          "address": "1320",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.output",
+      "value": 2,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "OutputSelect",
+      "input": "2",
+      "frames": [
+        {
+          "address": "1330",
+          "value": 2,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.pcm",
+      "value": 2,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "PCMFilter",
+      "input": "2",
+      "frames": [
+        {
+          "address": "1332",
+          "value": 2,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.highGain",
+      "value": true,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "Gain",
+      "input": "1",
+      "frames": [
+        {
+          "address": "1333",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.mute",
+      "value": true,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "Mute",
+      "input": "1",
+      "frames": [
+        {
+          "address": "1369",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.peq",
+      "value": true,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "PEQ",
+      "input": "1",
+      "frames": [
+        {
+          "address": "1340",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.preset",
+      "value": 2,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "PEQSelection",
+      "input": "2",
+      "frames": [
+        {
+          "address": "1341",
+          "value": 2,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.eqCount",
+      "value": 2,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqCount",
+      "input": "66050",
+      "frames": [
+        {
+          "address": "138b",
+          "value": 66050,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.options",
+      "value": 7,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "OutRange",
+      "input": "7",
+      "frames": [
+        {
+          "address": "1331",
+          "value": 7,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.brightness",
+      "value": 2,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "Luminance",
+      "input": "2",
+      "frames": [
+        {
+          "address": "1310",
+          "value": 2,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.autoPower",
+      "value": false,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "AutoOff",
+      "input": "0",
+      "frames": [
+        {
+          "address": "1350",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.language",
+      "value": 1,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "DeviceLang",
+      "input": "1",
+      "frames": [
+        {
+          "address": "1357",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "hifi.volumeStep",
+      "value": 1,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "VolumeStep",
+      "input": "1",
+      "frames": [
+        {
+          "address": "1335",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.1.enabled",
+      "value": true,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataBypassL",
+      "input": "0@1",
+      "frames": [
+        {
+          "address": "1515",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.1.type",
+      "value": 3,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataTypeL",
+      "input": "0@4",
+      "frames": [
+        {
+          "address": "1511",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.1.gain",
+      "value": -2.5,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataGainL",
+      "input": "0@-25",
+      "frames": [
+        {
+          "address": "1513",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.1.frequency",
+      "value": 1763,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataFreqL",
+      "input": "0@1763",
+      "frames": [
+        {
+          "address": "1512",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.1.q",
+      "value": 0.707,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataQL",
+      "input": "0@7070",
+      "frames": [
+        {
+          "address": "1514",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.10.enabled",
+      "value": true,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataBypassL",
+      "input": "9@1",
+      "frames": [
+        {
+          "address": "15a5",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.10.type",
+      "value": 3,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataTypeL",
+      "input": "9@4",
+      "frames": [
+        {
+          "address": "15a1",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.10.gain",
+      "value": -2.5,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataGainL",
+      "input": "9@-25",
+      "frames": [
+        {
+          "address": "15a3",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.10.frequency",
+      "value": 1763,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataFreqL",
+      "input": "9@1763",
+      "frames": [
+        {
+          "address": "15a2",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.10.q",
+      "value": 0.707,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataQL",
+      "input": "9@7070",
+      "frames": [
+        {
+          "address": "15a4",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiL.preamp",
+      "value": -3.5,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "preampL",
+      "input": "-35",
+      "frames": [
+        {
+          "address": "15c1",
+          "value": -35,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.1.enabled",
+      "value": true,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataBypassR",
+      "input": "0@1",
+      "frames": [
+        {
+          "address": "1415",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.1.type",
+      "value": 3,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataTypeR",
+      "input": "0@4",
+      "frames": [
+        {
+          "address": "1411",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.1.gain",
+      "value": -2.5,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataGainR",
+      "input": "0@-25",
+      "frames": [
+        {
+          "address": "1413",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.1.frequency",
+      "value": 1763,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataFreqR",
+      "input": "0@1763",
+      "frames": [
+        {
+          "address": "1412",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.1.q",
+      "value": 0.707,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataQR",
+      "input": "0@7070",
+      "frames": [
+        {
+          "address": "1414",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.10.enabled",
+      "value": true,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataBypassR",
+      "input": "9@1",
+      "frames": [
+        {
+          "address": "14a5",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.10.type",
+      "value": 3,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataTypeR",
+      "input": "9@4",
+      "frames": [
+        {
+          "address": "14a1",
+          "value": 4,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.10.gain",
+      "value": -2.5,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataGainR",
+      "input": "9@-25",
+      "frames": [
+        {
+          "address": "14a3",
+          "value": -25,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.10.frequency",
+      "value": 1763,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataFreqR",
+      "input": "9@1763",
+      "frames": [
+        {
+          "address": "14a2",
+          "value": 1763,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.10.q",
+      "value": 0.707,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "EqDataQR",
+      "input": "9@7070",
+      "frames": [
+        {
+          "address": "14a4",
+          "value": 7070,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "eq.hifiR.preamp",
+      "value": -3.5,
+      "handler": "0x1004f06bc",
+      "section": "HIFI_Widget",
+      "key": "preampR",
+      "input": "-35",
+      "frames": [
+        {
+          "address": "14c1",
+          "value": -35,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.boost",
+      "value": 0,
+      "handler": "0x1004f0428",
+      "section": "AudioBoost",
+      "key": "Type",
+      "input": "0",
+      "frames": [
+        {
+          "address": "6101",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.boost",
+      "value": 1,
+      "handler": "0x1004f0428",
+      "section": "AudioBoost",
+      "key": "Type",
+      "input": "1",
+      "frames": [
+        {
+          "address": "6201",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.boost",
+      "value": 2,
+      "handler": "0x1004f0428",
+      "section": "AudioBoost",
+      "key": "Type",
+      "input": "2",
+      "frames": [
+        {
+          "address": "6301",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.boost",
+      "value": 3,
+      "handler": "0x1004f0428",
+      "section": "AudioBoost",
+      "key": "Type",
+      "input": "3",
+      "frames": [
+        {
+          "address": "6401",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.boost",
+      "value": 4,
+      "handler": "0x1004f0428",
+      "section": "AudioBoost",
+      "key": "Type",
+      "input": "4",
+      "frames": [
+        {
+          "address": "6101",
+          "value": 0,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.pb12.volume",
+      "value": -12,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB12",
+      "key": "GAIN",
+      "input": "-12",
+      "frames": [
+        {
+          "address": "a102",
+          "value": -12,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.pb12.mute",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB12",
+      "key": "MUTE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "a103",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb12.hp",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB12",
+      "key": "HP",
+      "input": "1",
+      "frames": [
+        {
+          "address": "4109",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb12.otg",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB12",
+      "key": "PHONE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "4309",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb12.recording",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB12",
+      "key": "LIVE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "4509",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.pb34.volume",
+      "value": -12,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB34",
+      "key": "GAIN",
+      "input": "-12",
+      "frames": [
+        {
+          "address": "a302",
+          "value": -12,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.pb34.mute",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB34",
+      "key": "MUTE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "a303",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb34.hp",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB34",
+      "key": "HP",
+      "input": "1",
+      "frames": [
+        {
+          "address": "410b",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb34.otg",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB34",
+      "key": "PHONE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "430b",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb34.recording",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB34",
+      "key": "LIVE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "450b",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.pb56.volume",
+      "value": -12,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB56",
+      "key": "GAIN",
+      "input": "-12",
+      "frames": [
+        {
+          "address": "a502",
+          "value": -12,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.pb56.mute",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB56",
+      "key": "MUTE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "a503",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb56.hp",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB56",
+      "key": "HP",
+      "input": "1",
+      "frames": [
+        {
+          "address": "410d",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb56.otg",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB56",
+      "key": "PHONE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "430d",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    },
+    {
+      "id": "game.route.pb56.recording",
+      "value": true,
+      "handler": "0x1004eeac4",
+      "section": "Mixer_PB56",
+      "key": "LIVE",
+      "input": "1",
+      "frames": [
+        {
+          "address": "450d",
+          "value": 1,
+          "kind": 32,
+          "index": 1,
+          "channel": 1
+        }
+      ]
+    }
+  ]
+}

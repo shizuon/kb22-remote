@@ -1,0 +1,53 @@
+[
+  {
+    "mode": "pro",
+    "handler": "0x1004e9830",
+    "section": "SettingsDevice",
+    "key": "factoryReset",
+    "value": "1",
+    "frames": [
+      {
+        "address": "110c",
+        "value": 1,
+        "kind": 32,
+        "index": 1,
+        "channel": 1
+      }
+    ],
+    "error": null
+  },
+  {
+    "mode": "game",
+    "handler": "0x1004e9830",
+    "section": "SettingsDevice",
+    "key": "factoryReset",
+    "value": "1",
+    "frames": [
+      {
+        "address": "110c",
+        "value": 1,
+        "kind": 32,
+        "index": 1,
+        "channel": 1
+      }
+    ],
+    "error": null
+  },
+  {
+    "mode": "hifi",
+    "handler": "0x1004f06bc",
+    "section": "SettingsDevice",
+    "key": "factoryReset",
+    "value": "1",
+    "frames": [
+      {
+        "address": "1358",
+        "value": 1,
+        "kind": 32,
+        "index": 1,
+        "channel": 1
+      }
+    ],
+    "error": null
+  }
+]

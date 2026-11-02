@@ -1,0 +1,23 @@
+# Runtime credentials, presets, hardware state and diagnostics
+/data/
+/work/
+/.env
+/.env.*
+*.log
+*.pid
+
+# Python / development environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+node_modules/
+
+# Local packaging and editor files
+/dist/
+*.zip
+.DS_Store
+.idea/
+.vscode/

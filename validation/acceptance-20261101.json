@@ -1,0 +1,298 @@
+{
+  "date": "2026-11-01",
+  "pythonTests": 75,
+  "javascriptTests": 6,
+  "layoutChecks": 81,
+  "controlsRendered": 424,
+  "interactiveControlMs": {
+    "min": 51.04,
+    "median": 79.575,
+    "max": 173.38,
+    "count": 12
+  },
+  "brightnessAblation": [
+    {
+      "verify": false,
+      "value": 1,
+      "ms": 74.2,
+      "confirmed": [],
+      "pending": [
+        "device.brightness"
+      ]
+    },
+    {
+      "verify": false,
+      "value": 2,
+      "ms": 59.47,
+      "confirmed": [],
+      "pending": [
+        "device.brightness"
+      ]
+    },
+    {
+      "verify": true,
+      "value": 1,
+      "ms": 10475.28,
+      "confirmed": [
+        "device.brightness"
+      ],
+      "pending": []
+    },
+    {
+      "verify": true,
+      "value": 2,
+      "ms": 11223.62,
+      "confirmed": [
+        "device.brightness"
+      ],
+      "pending": []
+    }
+  ],
+  "playbackHardware": {
+    "phases": [
+      {
+        "amplitude": 0.001,
+        "levels": {
+          "playback:1:L": -59.8,
+          "playback:1:R": -59.8,
+          "playback:2:L": -59.8,
+          "playback:2:R": -59.8,
+          "playback:3:L": -59.8,
+          "playback:3:R": -59.8,
+          "playback:4:L": -59.8,
+          "playback:4:R": -59.8
+        }
+      },
+      {
+        "amplitude": 0.005,
+        "levels": {
+          "playback:1:L": -45.9,
+          "playback:1:R": -45.9,
+          "playback:2:L": -45.9,
+          "playback:2:R": -45.9,
+          "playback:3:L": -45.9,
+          "playback:3:R": -45.9,
+          "playback:4:L": -45.9,
+          "playback:4:R": -45.9
+        }
+      },
+      {
+        "amplitude": 0.002,
+        "levels": {
+          "playback:1:L": -53.8,
+          "playback:1:R": -53.8,
+          "playback:2:L": -53.8,
+          "playback:2:R": -53.8,
+          "playback:3:L": -53.8,
+          "playback:3:R": -53.8,
+          "playback:4:L": -53.8,
+          "playback:4:R": -53.8
+        }
+      }
+    ],
+    "stream": {
+      "events": 159,
+      "seconds": 3.0040785419987515,
+      "hz": 52.59516280652081,
+      "maxEventGapMs": 37.21533300267765,
+      "maxPlaybackAgeMs": 54.173946380615234
+    },
+    "audioErrors": [],
+    "acceptanceRule": "The endpoint coalesces unchanged HID samples at at most 60 Hz. Check freshness and gaps; USB reporting rate is not browser painting rate.",
+    "passed": true
+  },
+  "meterSnapshotAblation": {
+    "source": "KB22 PRO, 2026-11-01, low-level 8-channel PCM tones; frames reconstructed from received HID raw fields",
+    "capturedPlaybackChannels": 8,
+    "decodedWithoutPlaybackMapping": 0,
+    "decodedWithPlaybackMapping": 8,
+    "meterSnapshotMs": 0.01443,
+    "fullDeviceStateMs": 1.22851,
+    "speedup": 85.14
+  },
+  "queueAblation": {
+    "kind": "simulated-request-ablation",
+    "results": [
+      {
+        "strategy": "drop_while_busy",
+        "events": 21,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 3,
+        "finalValue": 16,
+        "expectedFinal": 20,
+        "finalValuePreserved": false,
+        "settleAfterDragMs": 31,
+        "totalMs": 230
+      },
+      {
+        "strategy": "fifo",
+        "events": 21,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 21,
+        "finalValue": 20,
+        "expectedFinal": 20,
+        "finalValuePreserved": true,
+        "settleAfterDragMs": 1290,
+        "totalMs": 1489
+      },
+      {
+        "strategy": "latest",
+        "events": 21,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 4,
+        "finalValue": 20,
+        "expectedFinal": 20,
+        "finalValuePreserved": true,
+        "settleAfterDragMs": 83,
+        "totalMs": 282
+      },
+      {
+        "strategy": "drop_while_busy",
+        "events": 51,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 7,
+        "finalValue": 46,
+        "expectedFinal": 50,
+        "finalValuePreserved": false,
+        "settleAfterDragMs": 30,
+        "totalMs": 531
+      },
+      {
+        "strategy": "fifo",
+        "events": 51,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 51,
+        "finalValue": 50,
+        "expectedFinal": 50,
+        "finalValuePreserved": true,
+        "settleAfterDragMs": 3114,
+        "totalMs": 3615
+      },
+      {
+        "strategy": "latest",
+        "events": 51,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 9,
+        "finalValue": 50,
+        "expectedFinal": 50,
+        "finalValuePreserved": true,
+        "settleAfterDragMs": 135,
+        "totalMs": 636
+      },
+      {
+        "strategy": "drop_while_busy",
+        "events": 101,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 13,
+        "finalValue": 94,
+        "expectedFinal": 100,
+        "finalValuePreserved": false,
+        "settleAfterDragMs": 11,
+        "totalMs": 1012
+      },
+      {
+        "strategy": "fifo",
+        "events": 101,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 101,
+        "finalValue": 100,
+        "expectedFinal": 100,
+        "finalValuePreserved": true,
+        "settleAfterDragMs": 6157,
+        "totalMs": 7158
+      },
+      {
+        "strategy": "latest",
+        "events": 101,
+        "requestMs": 70,
+        "stepMs": 10,
+        "requests": 16,
+        "finalValue": 100,
+        "expectedFinal": 100,
+        "finalValuePreserved": true,
+        "settleAfterDragMs": 133,
+        "totalMs": 1133
+      }
+    ]
+  },
+  "restoration": {
+    "comparedTo": "baseline-pro.json (completed device readback; initial-state.json was still syncing)",
+    "changes": [
+      {
+        "id": "device.autoPower",
+        "before": true,
+        "after": false
+      }
+    ],
+    "mixerRestored": true,
+    "modeRestored": true,
+    "rateRestored": true,
+    "passed": true
+  },
+  "browser": {
+    "controls": 424,
+    "fps": "60",
+    "meters": [
+      {
+        "clip": "inset(88.333% 0px 0px)",
+        "signal": "playback:1:L",
+        "title": "-46 dBFS · 设备电平"
+      },
+      {
+        "clip": "inset(88.367% 0px 0px)",
+        "signal": "playback:1:R",
+        "title": "-46.1 dBFS · 设备电平"
+      },
+      {
+        "clip": "inset(89.319% 0px 0px)",
+        "signal": "playback:2:L",
+        "title": "-47.4 dBFS · 设备电平"
+      },
+      {
+        "clip": "inset(91.204% 0px 0px)",
+        "signal": "playback:2:R",
+        "title": "-49.9 dBFS · 设备电平"
+      },
+      {
+        "clip": "inset(93.397% 0px 0px)",
+        "signal": "playback:3:L",
+        "title": "-52.6 dBFS · 设备电平"
+      },
+      {
+        "clip": "inset(94.66% 0px 0px)",
+        "signal": "playback:3:R",
+        "title": "-53.7 dBFS · 设备电平"
+      },
+      {
+        "clip": "inset(92.893% 0px 0px)",
+        "signal": "playback:4:L",
+        "title": "-51.8 dBFS · 设备电平"
+      },
+      {
+        "clip": "inset(90.643% 0px 0px)",
+        "signal": "playback:4:R",
+        "title": "-49.1 dBFS · 设备电平"
+      }
+    ],
+    "playback34": "0.4"
+  },
+  "limitations": [
+    "New physical tests in this round used PRO; GAME and HiFi UI and regressions used the offline transport and existing native fixtures.",
+    "Earlier whole-device / USB hub disconnect root cause remains unproven.",
+    "Three reserved HiFi upload words remain different from the historical backup; editable fields were restored in the prior hardware recovery.",
+    "48V and factory reset were not physically exercised."
+  ],
+  "liveMonitor": {
+    "seconds": 121.96277475357056,
+    "checks": 121,
+    "passed": true
+  }
+}

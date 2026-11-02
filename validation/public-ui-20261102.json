@@ -1,0 +1,113 @@
+{
+  "mode": "PRO offline preview",
+  "checks": [
+    {
+      "controls": 424,
+      "page": "#input",
+      "scroll": 360,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#mixer",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#output",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#eq",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#dynamics",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#fx",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#device",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#profiles",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#overview",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "controls": 424,
+      "page": "#input",
+      "scroll": 1265,
+      "width": 1280
+    },
+    {
+      "controls": 424,
+      "page": "#mixer",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "controls": 424,
+      "page": "#output",
+      "scroll": 1265,
+      "width": 1280
+    },
+    {
+      "controls": 424,
+      "page": "#eq",
+      "scroll": 1265,
+      "width": 1280
+    },
+    {
+      "controls": 424,
+      "page": "#dynamics",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "controls": 424,
+      "page": "#fx",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "controls": 424,
+      "page": "#device",
+      "scroll": 1265,
+      "width": 1280
+    },
+    {
+      "controls": 424,
+      "page": "#profiles",
+      "scroll": 1280,
+      "width": 1280
+    },
+    {
+      "controls": 424,
+      "page": "#overview",
+      "scroll": 1280,
+      "width": 1280
+    }
+  ]
+}

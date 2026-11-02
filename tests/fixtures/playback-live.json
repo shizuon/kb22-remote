@@ -1,0 +1,37 @@
+{
+  "source": "KB22 PRO, 2026-11-01, low-level 8-channel PCM tones; frames reconstructed from received HID raw fields",
+  "reports": [
+    {
+      "packet": "22332001014909fffffde65b516677",
+      "received": 1793470213.4727192
+    },
+    {
+      "packet": "2233200101490afffffde65b156677",
+      "received": 1793470213.473705
+    },
+    {
+      "packet": "2233200101490bfffffde69b286677",
+      "received": 1793470213.474703
+    },
+    {
+      "packet": "2233200101490cfffffde65b9d6677",
+      "received": 1793470213.475719
+    },
+    {
+      "packet": "2233200101490dfffffde69ba06677",
+      "received": 1793470213.4767191
+    },
+    {
+      "packet": "2233200101490efffffde69be46677",
+      "received": 1793470213.477726
+    },
+    {
+      "packet": "2233200101490ffffffde65bd96677",
+      "received": 1793470213.478724
+    },
+    {
+      "packet": "22332001014910fffffde6994c6677",
+      "received": 1793470213.479745
+    }
+  ]
+}

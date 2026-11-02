@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1D1E21">
+<title>KB22 Remote</title>
+<link rel="icon" href="/assets/icons/input-gain.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/panel_layout.css">
+<script defer src="/write_queue.js"></script>
+<script defer src="/panel_layout.js"></script>
+<script defer src="/app.js"></script>
+</head>
+<body>
+<header class="app-header"><a class="brand" href="#input"><b>KB22</b><span>Remote</span></a><span class="app-subtitle">INDEPENDENT REMOTE</span><div class="top-actions"><span id="connection" class="connection">连接中</span><span id="mode-label">—</span><span id="rate-label">—</span><button id="sync" class="icon-button" title="从设备重新读取当前配置" aria-label="刷新设备"><img src="/assets/icons/refresh.svg" alt=""></button></div></header>
+<div class="shell">
+<aside class="sidebar"><div class="device-badge"><span class="device-dot"></span><b>KB22</b></div><nav id="navigation" aria-label="控制页面"></nav><div class="sidebar-foot">USB / Wi-Fi</div></aside>
+<div class="workspace"><main><div class="page-heading"><div><p class="eyebrow" id="page-eyebrow">INPUTS</p><h1 id="page-title">输入</h1><p id="page-description" class="muted"></p></div></div><div id="connection-error" class="notice hidden" role="status"></div><div id="pages"></div></main></div>
+<aside id="monitor-panel" class="monitor-panel" aria-label="监听输出"></aside>
+</div>
+<footer><span id="sync-time">等待设备</span><span class="footer-path">KB22 <span>›</span> USB <span>›</span> Mac <span>›</span> Wi-Fi</span><button class="link-button" id="change-token">连接设置</button></footer>
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+<dialog id="token-dialog"><form id="token-form"><h2>连接 KB22 Remote</h2><p class="muted">粘贴 Mac 终端显示的完整手机地址，或其中的访问令牌。</p><label for="token-input">访问地址 / 令牌</label><input id="token-input" autocomplete="off" spellcheck="false" required><div class="dialog-actions"><button type="button" id="token-cancel" class="quiet">取消</button><button type="submit" class="primary">连接</button></div></form></dialog>
+<dialog id="confirm-dialog"><form method="dialog"><h2 id="confirm-title">确认操作</h2><p id="confirm-text"></p><div class="dialog-actions"><button value="cancel" class="quiet">取消</button><button value="confirm" class="primary">确认</button></div></form></dialog>
+</body></html>
